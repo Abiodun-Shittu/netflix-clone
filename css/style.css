@@ -1,0 +1,36 @@
+/* Navigation section */
+
+nav {
+    background: rgba(59, 57, 57, 0.897);
+    color: white;
+}
+
+.main-nav div {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.main-nav ul {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    list-style: none;
+}
+
+.list-a {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+}
+
+.list-b {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: white;
+}
