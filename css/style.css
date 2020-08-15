@@ -1,3 +1,7 @@
+body, html {
+    margin: 0;
+}
+
 * {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
@@ -6,15 +10,28 @@
 
 /* Navigation section */
 
+.display-flex {
+    display: flex;
+}
+
+.display-flex--center-align {
+    align-items: center;
+}
+
 nav {
-    background: rgba(59, 57, 57, 0.897);
+    background: linear-gradient(to bottom,rgba(102, 78, 78, 0.7) 10%,rgba(0,0,0,0));
     color: white;
 }
 
-.main-nav div {
+.main-nav {
     display: flex;
-    flex: 1;
     flex-direction: row;
+    align-items: center;
+    height: 68px;
+}
+
+.nav--wrapper {
+    margin: 0 30px;
 }
 
 .main-nav ul {
@@ -24,18 +41,32 @@ nav {
     list-style: none;
 }
 
-.list-a {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 30px;
+.header--logo {
+    display: block;
+    width: 6em;
+    height: 25px;
+    margin: auto;
 }
 
-.list-b {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 30px;
+.header--nav-list {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 100;
+}
+
+.list {
     justify-content: flex-end;
     padding-right: 5rem;
+}
+
+.list--list-item {
+    margin: 0 13px;
+}
+
+.header--icon {
+    margin: 0;
+    width: 30px;
+    height: 30px;
 }
 
 .main-nav a {
