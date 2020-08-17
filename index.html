@@ -14,7 +14,7 @@
         <header>
             <nav class="main-nav">
                 <div class="nav--wrapper">
-        
+
                 </div>
                 <a href="#" class="display-flex"><img class="header--logo" src="./imgs/long_logo.png" alt="Netflix logo"></a>
                 <ul class="header--nav-list">
@@ -43,31 +43,33 @@
 
         <!-- Main Section -->
         <main>
-            <img src="img/heist-logo.png" title="La casa de papel" alt="La casa de papel">
-
-            <p>#5 In Nigeria Today</p>
-            <p>With millions of euros and their lives on the line, nine robbers attempt to pull off the greatest heist of all time.</p>
-            <div class="role">
-                <p><a class="play" href="#"><i class="fas fa-play"></i> Play</a></p>
-                <p><a class="info" href="#"><i class="fas fa-info-circle"></i> More Info</a></p>
+            <div class="info display-flex">
+                <img class="main--logo" src="img/heist-logo.png" title="La casa de papel" alt="La casa de papel">
+                <p>With millions of euros and their lives on the line, nine robbers attempt to pull off the greatest heist of all time.</p>
+                <div class="display-flex">
+                    <a class="info--play display-flex" href="#"><i class="fas fa-play"></i><span>Play</span></a>
+                    <a class="info--more display-flex" href="#"><i class="fas fa-info-circle"></i><span>More Info</span></a>
+                </div>
             </div>
-            <p class="rating">18+</p><br>
+            <div class="info--rating">
+                <p>18+</p>
+            </div>
         </main>
+
+        <!-- Section -->
+        <section>
+            <div class="section--wrapper">
+                <h2>Popular on Netflix</h2>
+                <div class="movie-list ">
+                    <a class="movie-list--item" href="#"><img class="image" src="img/img1.jpg" alt="Money Heist"></a>
+                    <a class="movie-list--item" href="#"><img class="image" src="img/img2.jpg" alt="Extraction"></a>
+                    <a class="movie-list--item" href="#"><img class="image" src="img/img3.jpg" alt="The King"></a>
+                    <a class="movie-list--item" href="#"><img class="image" src="img/img4.jpg" alt="Wizards"></a>
+                    <a class="movie-list--item" href="#"><img class="image" src="img/img5.jpg" alt="6 Underground"></a>
+                </div>
+            </div>
+        </section>
     </div>
-
-    <!-- Section -->
-    <section>
-        <h2>Popular on Netflix</h2>
-        <div>
-            <a class="movie-1" href="#"><img class="image" src="img/img1.jpg" alt="Money Heist"></a>
-            <a class="movie-2" href="#"><img class="image" src="img/img2.jpg" alt="Extraction"></a>
-            <a class="movie-3" href="#"><img class="image" src="img/img3.jpg" alt="The King"></a>
-            <a class="movie-4" href="#"><img class="image" src="img/img4.jpg" alt="Wizards"></a>
-            <a class="movie-5" href="#"><img class="image" src="img/img5.jpg" alt="6 Underground"></a>
-        </div>
-
-    </section>
-
 </body>
 
 </html>
